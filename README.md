@@ -1,6 +1,6 @@
 # Notter
 
-A notes app, with a simple interface, using Sqflite and Future Builder
+A notes application, with simple interface, with CRUD in Sqflite
 
 ## Getting Started
 
