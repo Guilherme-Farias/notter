@@ -25,8 +25,7 @@ class NoteDao {
   Future<int> insertNote(Note note, bool isNew) async {
     final Database db = await dbCore.database;
 
-    return await db.insert(
-        _tableName, isNew ? note.toMap(false) : note.toMap(true),
+    return db.insert(_tableName, isNew ? note.toMap(false) : note.toMap(true),
         conflictAlgorithm: ConflictAlgorithm.replace);
   }
 
@@ -41,11 +40,13 @@ class NoteDao {
         return false;
       }
     }
+    return null;
   }
 
   Future<List<Note>> getAllNotes() async {
     final Database db = await dbCore.database;
-    var data = await db.query(_tableName, orderBy: "$_updatedIn desc");
+    final List<Map<String, dynamic>> data =
+        await db.query(_tableName, orderBy: "$_updatedIn desc");
     List<Note> notes = _toList(data);
     return notes;
   }

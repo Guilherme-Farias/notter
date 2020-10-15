@@ -23,6 +23,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  auto_size_text:
+  sqflite: 
+  path: 
+  provider:
+  intl:
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -32,10 +37,6 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  auto_size_text:
-  sqflite: 
-  path: 
-  provider:
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

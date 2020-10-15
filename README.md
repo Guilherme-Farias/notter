@@ -1,6 +1,6 @@
-# notter
+# Notter
 
-A new Flutter project.
+A notes app, with a simple interface, using Sqflite and Future Builder
 
 ## Getting Started
 
