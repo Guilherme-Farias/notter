@@ -2,6 +2,14 @@
 
 A notes application, with simple interface, with CRUD in Sqflite
 
+
+<div>
+<img src='https://github.com/Guilherme-Farias/notter/blob/master/screenshots/home_screenshot.png' height=500 hspace="5">
+<img src='https://github.com/Guilherme-Farias/notter/blob/master/screenshots/new_note_screenshot.png' height=500 hspace="5">
+<img src='https://github.com/Guilherme-Farias/notter/blob/master/screenshots/edit_note_screenshot.png' height=500 hspace="5">
+<img src='https://github.com/Guilherme-Farias/notter/blob/master/screenshots/delete_note_screenshot.png' height=500 hspace="5">
+</div>
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
